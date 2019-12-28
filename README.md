@@ -10,4 +10,9 @@ Update gems.
 $ bundle install
 $ rails generate rspec:install
 $ bundle exec rspec lib/spec/api_constraints_spec.rb
+$ rails g devise:install
+$ rails g devise User
+$ rails db:migrate
+$ rails db:test:prepare
 ```
+
