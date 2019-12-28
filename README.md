@@ -14,5 +14,6 @@ $ rails g devise:install
 $ rails g devise User
 $ rails db:migrate
 $ rails db:test:prepare
+$ bundle exec rspec spec/models/user_spec.rb
 ```
 
